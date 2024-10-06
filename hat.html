@@ -103,33 +103,33 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="#">
-        <img src="logo.jpg" alt="Wheels Deal Logo"> Wheels Deal
-    </a>
-    <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search for a car" aria-label="Search">
-                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Cars for Sale</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Price Prediction</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+            <!-- Placeholder for Logo -->
+            <img src="logo.jpg" alt="Wheels Deal Logo"> Wheels Deal
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search for a car" aria-label="Search">
+                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                <li class="nav-item">
+                    <a class="nav-link" href="dog.html ">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cars for Sale</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Price Prediction</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a> <!-- Updated link -->
+                </li>
+            </ul>
+        </div>
+    </nav>
 
 <div class="container">
     <!-- Left side: Prediction model -->
@@ -138,7 +138,8 @@
             <h1>Car Price Prediction</h1>
             <p>Predict the price of a car you want to sell by filling out the details below:</p>
 
-            <form method="post" accept-charset="utf-8" name="Modelform">
+
+<form method="post" accept-charset="utf-8" name="Modelform">
                 <div class="form-group">
                     <label><b>Select the company:</b></label>
                     <select class="selectpicker form-control" id="company" name="company" required="1"
@@ -182,100 +183,131 @@
     
     <div class="car-listing">
         <div class="car-card">
-            <img src="/templates/mustang.jpg" alt="Car 1">
+            <img src="mustang.jpg" alt="Car 1">
             <p><strong>Model:</strong> Ford Mustang</p>
-            <p class="car-details"><strong>KM driven:</strong> 15,000 km | <strong>Fuel:</strong> Petrol</p>
+            <p class="car-details"><strong>Mileage:</strong> 15,000 km | <strong>Fuel:</strong> Petrol</p>
             <p><strong>Price:</strong> ₹25,00,000</p>
-            <button class="btn buy-now-btn" onclick="openCarPage('Ford Mustang', 'mustang.jpg', '25,00,000', '15,000', 'Petrol')">Buy Now</button>
+            <button class="btn buy-now-btn">Buy Now</button>
         </div>
         <div class="car-card">
-            <img src="/templates/toyota.jpg" alt="Car 2">
+            <img src="toyota.jpg" alt="Car 2">
             <p><strong>Model:</strong> Toyota Corolla</p>
-            <p class="car-details"><strong>KM driven:</strong> 34,000 km | <strong>Fuel:</strong> Diesel</p>
+            <p class="car-details"><strong>Mileage:</strong> 50,000 km | <strong>Fuel:</strong> Diesel</p>
             <p><strong>Price:</strong> ₹10,00,000</p>
-            <button class="btn buy-now-btn" onclick="openCarPage('Toyota Corolla', 'toyota.jpg', '10,00,000', '34,000', 'Diesel')">Buy Now</button>
+            <button class="btn buy-now-btn">Buy Now</button>
         </div>
         <div class="car-card">
-            <img src="/templates/bmw.jpg" alt="Car 3">
+            <img src="bmw.jpg" alt="Car 3">
             <p><strong>Model:</strong> BMW X5</p>
-            <p class="car-details"><strong>KM driven</strong> 24,000 km | <strong>Fuel:</strong> Petrol</p>
+            <p class="car-details"><strong>Mileage:</strong> 25,000 km | <strong>Fuel:</strong> Petrol</p>
             <p><strong>Price:</strong> ₹40,00,000</p>
-            <button class="btn buy-now-btn" onclick="openCarPage('BMW X5', 'bmw.jpg', '40,00,000', '24,000', 'Petrol')">Buy Now</button>
+            <button class="btn buy-now-btn">Buy Now</button>
         </div>
         <div class="car-card">
-            <img src="/templates/audi.jpg" alt="Car 4">
-            <p><strong>Model:</strong> Audi Q7</p>
-            <p class="car-details"><strong>KM driven:</strong> 18,000 km | <strong>Fuel:</strong> Diesel</p>
-            <p><strong>Price:</strong> ₹55,00,000</p>
-            <button class="btn buy-now-btn" onclick="openCarPage('Audi Q7', 'audi.jpg', '55,00,000', '18,000', 'Diesel')">Buy Now</button>
-        </div>
-        <div class="car-card">
-            <img src="/templates/honda.jpg" alt="Car 5">
+            <img src="honda.jpg" alt="Car 4">
             <p><strong>Model:</strong> Honda Civic</p>
-            <p class="car-details"><strong>KM driven:</strong> 22,000 km | <strong>Fuel:</strong> Petrol</p>
-            <p><strong>Price:</strong> ₹20,00,000</p>
-            <button class="btn buy-now-btn" onclick="openCarPage('Honda Civic', 'honda.jpg', '20,00,000', '22,000', 'Petrol')">Buy Now</button>
+            <p class="car-details"><strong>Mileage:</strong> 30,000 km | <strong>Fuel:</strong> Petrol</p>
+            <p><strong>Price:</strong> ₹15,00,000</p>
+            <button class="btn buy-now-btn">Buy Now</button>
+        </div>
+        <div class="car-card">
+            <img src="honda.jpg" alt="Car 4">
+            <p><strong>Model:</strong> Honda Civic</p>
+            <p class="car-details"><strong>Mileage:</strong> 30,000 km | <strong>Fuel:</strong> Petrol</p>
+            <p><strong>Price:</strong> ₹15,00,000</p>
+            <button class="btn buy-now-btn">Buy Now</button>
+        </div>
+        <div class="car-card">
+            <img src="honda.jpg" alt="Car 4">
+            <p><strong>Model:</strong> Honda Civic</p>
+            <p class="car-details"><strong>Mileage:</strong> 30,000 km | <strong>Fuel:</strong> Petrol</p>
+            <p><strong>Price:</strong> ₹15,00,000</p>
+            <button class="btn buy-now-btn">Buy Now</button>
+        </div>
+        <div class="car-card">
+            <img src="honda.jpg" alt="Car 4">
+            <p><strong>Model:</strong> Honda Civic</p>
+            <p class="car-details"><strong>Mileage:</strong> 30,000 km | <strong>Fuel:</strong> Petrol</p>
+            <p><strong>Price:</strong> ₹15,00,000</p>
+            <button class="btn buy-now-btn">Buy Now</button>
+        </div>
+        <div class="car-card">
+            <img src="honda.jpg" alt="Car 4">
+            <p><strong>Model:</strong> Honda Civic</p>
+            <p class="car-details"><strong>Mileage:</strong> 30,000 km | <strong>Fuel:</strong> Petrol</p>
+            <p><strong>Price:</strong> ₹15,00,000</p>
+            <button class="btn buy-now-btn">Buy Now</button>
         </div>
     </div>
 </div>
+<div class="container"></div>
+    <!-- Left side: Prediction model -->
+    <div class="prediction-section" style="width: 100%; margin-left: 0; margin-right: 30px;">
+        <!-- prediction model content -->
+    </div>
 
+    <!-- Right side: Car listing -->
+    <div class="car-listing" style="width: 30%;">
+        <!-- car listing content -->
+    </div>
+</div>
 <script>
-   function load_car_models(company_id,car_model_id)
-    {
-        var company=document.getElementById(company_id);
-        var car_model= document.getElementById(car_model_id);
-        console.log(company.value);
-        car_model.value="";
-        car_model.innerHTML="";
-        {% for company in companies %}
-            if( company.value == "{{ company }}")
-            {
-                {% for model in car_models %}
-                    {% if company in model %}
+    function load_car_models(company_id, car_model_id) {
+        var company = document.getElementById(company_id);
+        var car_model = document.getElement
 
-                        var newOption= document.createElement("option");
-                        newOption.value="{{ model }}";
-                        newOption.innerHTML="{{ model }}";
-                        car_model.options.add(newOption);
-                    {% endif %}
-                {% endfor %}
-            }
-        {% endfor %}
-    }
 
-    function form_handler(event) {
-        event.preventDefault(); // Don't submit the form normally
-    }
-    function send_data()
-    {
-        document.querySelector('form').addEventListener("submit",form_handler);
+var car_model = document.getElementById(car_model_id);
+        car_model.innerHTML = "";
 
-        var fd=new FormData(document.querySelector('form'));
-
-        var xhr= new XMLHttpRequest({mozSystem: true});
-
-        xhr.open('POST','/predict',true);
-        document.getElementById('prediction').innerHTML="Wait! Predicting Price.....";
-        xhr.onreadystatechange = function(){
-            if(xhr.readyState == XMLHttpRequest.DONE){
-                document.getElementById('prediction').innerHTML="Prediction: ₹"+xhr.responseText;
-
-            }
+        var models = {
+            "Ford": ["Mustang", "Fiesta", "EcoSport"],
+            "Toyota": ["Corolla", "Camry", "Yaris"],
+            "BMW": ["X5", "X3", "3 Series"],
+            "Honda": ["Civic", "Accord", "CR-V"]
         };
 
-        xhr.onload= function(){};
+        var selectedCompany = company.value;
+        var carModels = models[selectedCompany];
 
-        xhr.send(fd);
+        for (var i = 0; i < carModels.length; i++) {
+            var option = document.createElement("option");
+            option.value = carModels[i];
+            option.text = carModels[i];
+            car_model.appendChild(option);
+        }
     }
 
-    function openCarPage(model, image, price, km, fuel) {
-        // Logic to open car details page
-        alert(`You selected ${model}. Price: ${price}`);
+    function send_data() {
+        var company = document.getElementById('company').value;
+        var car_models = document.getElementById('car_models').value;
+        var year = document.getElementById('year').value;
+        var fuel_type = document.getElementById('fuel_type').value;
+        var kilo_driven = document.getElementById('kilo_driven').value;
+
+        $.ajax({
+            url: "/predict",
+            type: "POST",
+            data: {
+                company: company,
+                car_models: car_models,
+                year: year,
+                fuel_type: fuel_type,
+                kilo_driven: kilo_driven
+            },
+            success: function (response) {
+                document.getElementById('prediction').innerHTML = response.predicted_price;
+            }
+        });
     }
 </script>
 
-<!-- Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-3g8bW1qcvBRTQ1gD+39bV9e5l+ayc5zz1Q2DkMuvnDk9KOg0A3pY4x5BR+ezV5K" crossorigin="anonymous"></script>
+<!-- Bootstrap and jQuery JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pzjw8f+ua7Kw1TIqQUiRmSzAOW1H7zKtmI1zYp5V3xHMV9B6Z4cM5I1KZO5h7v5T"
+        crossorigin="anonymous"></script>
 </body>
 </html>
